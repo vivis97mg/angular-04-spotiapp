@@ -11,7 +11,7 @@ export class DomseguroPipe implements PipeTransform {
 
   transform( value: any ): any {
 
-    // const url = 'https://embed.spotify.com/?uri=';
+    const url = 'https://embed.spotify.com/?uri=';
     // const url = 'https://open.spotify.com/embed/track/';
 
     return this.domSanitizer.bypassSecurityTrustResourceUrl( url  + value );
