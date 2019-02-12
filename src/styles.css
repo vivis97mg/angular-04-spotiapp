@@ -1,0 +1,57 @@
+body {
+  background-color: #343a40 !important;
+  color: #ffffff !important;
+}
+
+hr {
+  border-color: #ffffff;
+}
+
+.puntero {
+  cursor: pointer;
+}
+
+.img-circle {
+  border-radius: 100%;
+  width: 150px;
+}
+
+.card-title,
+.card-text {
+  color: #000000;
+}
+
+.badge {
+  margin-left: 5px;
+}
+
+.btn-outline-success {
+  margin-left: 5px;
+}
+
+.img-thumb {
+  width: 50px;
+  height: 50px;
+}
+
+/* Animaciones */
+.animate {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  opacity: 0;
+}
+
+.fast {
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+}
+
+.fadein {
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  to {
+    opacity: 1;
+  }
+}
